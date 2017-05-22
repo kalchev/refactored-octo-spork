@@ -179,8 +179,30 @@
     "DefaultWPFApplication": null,
     "UseLegacySilverlightFindLogic": false,
     "ProjectGuid": "e78f6867-bc38-4a85-946a-6895daeef3da",
-    "SourceControlRepository": null,
-    "IsOnline": false,
+    "SourceControlRepository": {
+      "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitRepositoryInfo",
+      "__value": {
+        "RemotePath": "https://github.com/kalchev/refactored-octo-spork.git",
+        "ServerInfo": {
+          "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitServerInfo",
+          "__value": {
+            "ServerName": "https://github.com/kalchev/refactored-octo-spork.git"
+          }
+        },
+        "ServerType": 2,
+        "CredentialsInfo": {
+          "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitConnectInfo",
+          "__value": {
+            "IsLocal": false,
+            "RepositoryPath": "https://github.com/kalchev/refactored-octo-spork.git",
+            "UserName": "kalchev",
+            "Email": "kalchev@progress.com",
+            "GitPasswordEncrypted": "uLTbPdnBDpVC6v5OWWZlhwIFcNry6mnUGRswz3sJ9lba1VRVi3paWP95DateBvbz"
+          }
+        }
+      }
+    },
+    "IsOnline": true,
     "ProjectLanguage": 2,
     "ProjectReferences": [
       "System",
